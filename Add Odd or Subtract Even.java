@@ -11,7 +11,8 @@ public class t{
 
             if(a == b){
                 System.out.println("0");
-            } else if(a > b){
+            } 
+            else if(a > b){
                 System.out.println((b-a)%2 == 0 ? "1":"2");
            }
            else{
